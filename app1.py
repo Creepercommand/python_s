@@ -6,8 +6,8 @@ def displable():
 root = tk.Tk()
 root.geometry("200x100")
 
-lbl = tk.Label(text = "LABLE")
-btn = tk.Button(text = "PUSH", command = displable)
+lbl = tk.Label(text = "")
+btn = tk.Button(text = "클릭하세요", command = displable)
 
 lbl.pack()
 btn.pack()
